@@ -1,0 +1,34 @@
+export type Cellular = {
+    title: string;
+    category: string;
+    brand: string;
+    model: string;
+    polyphonic_ringtones: boolean;
+    battery_capacity: string;
+    year: number;
+    colors: string[];
+    memory: string;
+    ram: string;
+    processor: string;
+    video_card: string;
+    screen_resolution: string;
+    camera: string;
+    operating_system: string;
+    weight: string;
+    dimensions: string;
+    bluetooth: boolean;
+    wifi: boolean;
+    expandable_memory: boolean;
+    network_support: string[];
+    display_type: string;
+    sim_type: string;
+    special_features: string[];
+    replaceable_cover: boolean;
+    games: string[];
+    purchase_link: string;
+    image: string;
+    priceLira?: string;
+    priceEuroEquivalent?: string;
+    priceLaunchEuro?: string;
+    vibration_mode: boolean;
+}
